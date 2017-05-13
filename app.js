@@ -26,11 +26,11 @@ app.get('/', function (req, res, next) {
     });
 });
 
-app.get('index', function (req,res){
+app.get('/index', function (req,res){
    res.send('index'); 
 });
 
-app.get('other', function (req,res){
+app.get('/other', function (req,res){
    res.send('other'); 
 });
 
