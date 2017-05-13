@@ -26,6 +26,9 @@ app.get('/', function (req, res, next) {
     });
 });
 
+app.get('index.html', function (req,res){
+   res.render('home'); 
+});
 app.listen(80);
 
 //test added
