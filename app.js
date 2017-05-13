@@ -19,7 +19,7 @@ app.get('/', function (req, res, next) {
     res.render('home', {
         showTitle: true,
 
-        // Override `foo` helper only for this rendering.
+        // Override `foo` helper only for this renderingdas.
         helpers: {
             foo: function () { return 'foo.'; }
         }
